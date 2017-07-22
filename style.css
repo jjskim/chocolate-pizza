@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Written
+CSS
+Starts
+Here*/
+
+header {
+  margin-bottom: 2em;
+	margin-top: 20px;
+}
+
+#header_logo {
+  float: left;
+}
+
+#header_text {
+  display: inline-block;
+	margin-left: 10px;
+}
+
+#header_text h2 {
+	font-weight: bold;
+	font-family: 'Great Vibes', cursive;
+	font-size: 27px;
+}
+
+#header_text h3 {
+	font-family: Arial;
+	font-size: 10px;
+}
+
+#rss {
+	margin-left: 10px;
+}
+
+#social li{
+	margin: 1px;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#title h3 {
+	font-size: 12px;
+	font-style: italic;
+}
+
+header ul li {
+  float: right;
+}
+
+nav {
+  float: right;
+}
+
+main > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#title h3 {
+  display: inline-block;
+}
+
+#title img {
+  display: inline-block;
+}
+
+#title h5 {
+  display: inline-block;
+}
+
+#print {
+  float: right;
+}
+
+body {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main>p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-indent: 30px;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+#ingredients {
+  background-image: url("C:/Users/Joseph/codefellows/201/chocolate-pizza/img/list-bg.png");
+	background-size: 900px 300px;
+  width: 900px;
+  height: 300px;
+	font-family: "Comic Sans MS";
+}
+
+#ingredients_first>label {
+  display: block;
+	margin: 8px;
+}
+
+#ingredients_first {
+  display: inline-block;
+	margin-right: 200px;
+	margin-left: 80px;
+	margin-top: 50px;
+}
+
+#ingredients_second>label {
+  display: block;
+	margin: 8px;
+}
+
+#ingredients_second {
+  display: inline-block;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+button {
+	display: inline-block;
+	/*float: right;*/
+	background-color: #ff704d;
+	color: white;
+	font-family: Arial 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#vanessa {
+	float: left;
+	margin: 10px;
+	display: block;
+}
+
+#author_info {
+	width: 400 px;
+	display: block;
+	float: left;
+}
+
+#author_info h4 {
+	margin-bottom: 10px;
+	font-size: 19px;
+}
+
+#author_section {
+	display: block;
+}
+
+#bottom_underline {
+	display: block;
+}
+
+#bottom_logo {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid white 20px;
+}
+
+#background_line {
+	margin-top: -35px;
+}
+
+#copyright {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#copyright h5{
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
